@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/shouyeFragment">
+
+    <fragment
+        android:id="@+id/shouyeFragment"
+        android:name="com.example.dibudaohang.ShouyeFragment"
+        android:label="shouye_fragment"
+        tools:layout="@layout/shouye_fragment" />
+    <fragment
+        android:id="@+id/xiaoxiFragment"
+        android:name="com.example.dibudaohang.XiaoxiFragment"
+        android:label="xiaoxi_fragment"
+        tools:layout="@layout/xiaoxi_fragment" />
+    <fragment
+        android:id="@+id/wodeFragment"
+        android:name="com.example.dibudaohang.WodeFragment"
+        android:label="wode_fragment"
+        tools:layout="@layout/wode_fragment" />
+</navigation>
